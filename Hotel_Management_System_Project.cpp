@@ -15,7 +15,18 @@ int main()
     // Total price of each item
     int Total_rooms = 0, Total_pasta = 0, Total_burger = 0, Total_noodles = 0, Total_shake = 0, Total_chicken = 0;
 
-    cout << "\nQuantity of items we have in a hotel *: " << endl;
+
+
+
+
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+
+
+
+
+    cout << "\nQuantity of items we have in a hotel: " << endl;
     cout << "-------------------------------------" << endl;
     cout << "Rooms we have in a hotel: " << endl;
     cin >> Qrooms;
@@ -34,6 +45,28 @@ int main()
 
     cout << "\nChicken we have in a hotel: " << endl;
     cin >> Qchicken;
+
+
+
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+
+
+
+
+    cout << "\n\t\t Rate List: " << endl;
+    cout << "                 -----------------------------------------" << endl;
+    cout << "1) Rooms: 1200 Rs" << endl;
+    cout << "2) Pasta: 250 Rs" << endl;
+    cout << "3) Burger: 120 Rs" << endl;
+    cout << "4) Noodles: 140 Rs" << endl;
+    cout << "5) Shake: 120 Rs" << endl;
+    cout << "6) Chicken: 150 Rs" << endl;
+
+
+
+
 
 m:
 
@@ -75,6 +108,13 @@ m:
             break;
         }
 
+
+
+
+
+
+
+
     case 2:
         cout << "Enter Pasta Quantity: " << endl;
         cin >> quantity;
@@ -92,6 +132,13 @@ m:
             cout << "\nOnly " << Qpasta - Spasta << " Pasta Remaining in the hotel " << endl;
             break;
         }
+
+
+
+
+
+
+
 
     case 3:
         cout << "Enter Burger Quantity : " << endl;
@@ -111,6 +158,14 @@ m:
             break;
         }
 
+
+
+
+
+
+
+
+
     case 4:
         cout << "Enter Noodles: " << endl;
         cin >> quantity;
@@ -128,6 +183,14 @@ m:
             cout << "\nOnly " << Qnoodles - Snoodles << " Noodles Remaining in the hotel " << endl;
             break;
         }
+
+
+
+
+
+
+
+
 
     case 5:
         cout << "Enter Shake Quantity: " << endl;
@@ -149,6 +212,14 @@ m:
 
         cout << "\n";
 
+
+
+
+
+
+
+
+
     case 6:
         cout << "Enter Chicken Quantity: " << endl;
         cin >> quantity;
@@ -167,6 +238,14 @@ m:
             break;
         }
 
+
+
+
+
+
+
+
+
     case 7:
         cout << "Details of Sales and Colection " << endl;
         cout << "\nNumber of Rooms we had: " << Qrooms << endl;
@@ -176,6 +255,9 @@ m:
 
         cout << "\n";
 
+
+
+
         cout << "Details of Sales and Colection " << endl;
         cout << "Number of Pasta we had: " << Qpasta << endl;
         cout << "Number of Pasta we sold: " << Spasta << endl;
@@ -183,6 +265,10 @@ m:
         cout << "Total Pasta Collection for the day: " << Total_pasta << endl;
 
         cout << "\n";
+
+
+
+
 
         cout << "Details of Sales and Colection " << endl;
         cout << "Number of Burger we had: " << Qburger << endl;
@@ -192,6 +278,10 @@ m:
 
         cout << "\n";
 
+
+
+
+
         cout << "Details of Sales and Colection " << endl;
         cout << "Number of Noodles we had: " << Qnoodles << endl;
         cout << "Number of Noodles we sold: " << Srooms << endl;
@@ -200,13 +290,21 @@ m:
 
         cout << "\n";
 
+
+
+
+
         cout << "Details of Sales and Colection " << endl;
         cout << "Number of Shakes we had: " << Qshake << endl;
-        cout << "Number of Shakes we soldt: " << Sshake << endl;
+        cout << "Number of Shakes we sold: " << Sshake << endl;
         cout << "Remaining Shakes: " << Qshake - Sshake << endl;
         cout << "Total Shakes Collection for the day: " << Total_shake << endl;
 
         cout << "\n";
+
+
+
+
 
         cout << "Details of Sales and Colection " << endl;
         cout << "Number of Chicken we had: " << Qchicken << endl;
@@ -216,11 +314,19 @@ m:
 
         cout << "\n";
 
+
+
+
+
         cout << "Total Collection for the day: " << Total_rooms + Total_pasta + Total_burger + Total_noodles + Total_shake + Total_chicken;
         cout << "\n";
         break;
 
+
         cout << "\n";
+
+
+
 
     case 8:
         return 0;
@@ -231,3 +337,8 @@ m:
 
     goto m;
 }
+
+
+
+
+
