@@ -53,21 +53,6 @@ int main()
     cout << "\n";
 
 
-
-
-    cout << "\n\t\t Rate List: " << endl;
-    cout << "                 -----------------------------------------" << endl;
-    cout << "1) Rooms: 1200 Rs" << endl;
-    cout << "2) Pasta: 250 Rs" << endl;
-    cout << "3) Burger: 120 Rs" << endl;
-    cout << "4) Noodles: 140 Rs" << endl;
-    cout << "5) Shake: 120 Rs" << endl;
-    cout << "6) Chicken: 150 Rs" << endl;
-
-
-
-
-
 m:
 
     cout << "\n\t\t Please select from the given menu option: " << endl;
@@ -80,6 +65,27 @@ m:
     cout << "6) Chicken" << endl;
     cout << "7) Information Regarding sales and Collection" << endl;
     cout << "8) Exit" << endl;
+
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+
+
+    cout << "\n\t\t Rate List: " << endl;
+    cout << "                 -----------------------------------------" << endl;
+    cout <<"(1) Rooms: 1200 Rs" << endl;
+    cout << "(2) Pasta: 250 Rs" << endl;
+    cout << "(3) Burger: 120 Rs" << endl;
+    cout << "(4) Noodles: 140 Rs" << endl;
+    cout << "(5) Shake: 120 Rs" << endl;
+    cout << "(6) Chicken: 150 Rs" << endl;
+
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+
+
+
 
     cout << "\n\t\t Please enter your choice: " << endl;
     cout << "                 -------------------------" << endl;
@@ -98,7 +104,7 @@ m:
             Srooms = Srooms + quantity;
             Total_rooms = Total_rooms + quantity * 1200;
             cout << "\n"
-                 << quantity << " Rooms have been aloted to you! " << endl;
+            << quantity << " Rooms have been aloted to you! " << endl;
             break;
         }
 
